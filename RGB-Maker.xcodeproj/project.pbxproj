@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF9D2E52AEC01A90019737E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D2E42AEC01A90019737E /* AppDelegate.swift */; };
+		BEF9D2E72AEC01A90019737E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D2E62AEC01A90019737E /* SceneDelegate.swift */; };
+		BEF9D2E92AEC01A90019737E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D2E82AEC01A90019737E /* ViewController.swift */; };
+		BEF9D2EC2AEC01A90019737E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF9D2EA2AEC01A90019737E /* Main.storyboard */; };
+		BEF9D2EE2AEC01AA0019737E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF9D2ED2AEC01AA0019737E /* Assets.xcassets */; };
+		BEF9D2F12AEC01AA0019737E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF9D2EF2AEC01AA0019737E /* LaunchScreen.storyboard */; };
+		BEF9D2FC2AEC01AA0019737E /* RGB_MakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D2FB2AEC01AA0019737E /* RGB_MakerTests.swift */; };
+		BEF9D3062AEC01AA0019737E /* RGB_MakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D3052AEC01AA0019737E /* RGB_MakerUITests.swift */; };
+		BEF9D3082AEC01AA0019737E /* RGB_MakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF9D3072AEC01AA0019737E /* RGB_MakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF9D2F82AEC01AA0019737E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF9D2D92AEC01A90019737E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF9D2E02AEC01A90019737E;
+			remoteInfo = "RGB-Maker";
+		};
+		BEF9D3022AEC01AA0019737E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF9D2D92AEC01A90019737E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF9D2E02AEC01A90019737E;
+			remoteInfo = "RGB-Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF9D2E12AEC01A90019737E /* RGB-Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB-Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF9D2E42AEC01A90019737E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF9D2E62AEC01A90019737E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF9D2E82AEC01A90019737E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF9D2EB2AEC01A90019737E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF9D2ED2AEC01AA0019737E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF9D2F02AEC01AA0019737E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF9D2F22AEC01AA0019737E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF9D2F72AEC01AA0019737E /* RGB-MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB-MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF9D2FB2AEC01AA0019737E /* RGB_MakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_MakerTests.swift; sourceTree = "<group>"; };
+		BEF9D3012AEC01AA0019737E /* RGB-MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB-MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF9D3052AEC01AA0019737E /* RGB_MakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_MakerUITests.swift; sourceTree = "<group>"; };
+		BEF9D3072AEC01AA0019737E /* RGB_MakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_MakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF9D2DE2AEC01A90019737E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9D2F42AEC01AA0019737E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9D2FE2AEC01AA0019737E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF9D2D82AEC01A90019737E = {
+			isa = PBXGroup;
+			children = (
+				BEF9D2E32AEC01A90019737E /* RGB-Maker */,
+				BEF9D2FA2AEC01AA0019737E /* RGB-MakerTests */,
+				BEF9D3042AEC01AA0019737E /* RGB-MakerUITests */,
+				BEF9D2E22AEC01A90019737E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF9D2E22AEC01A90019737E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF9D2E12AEC01A90019737E /* RGB-Maker.app */,
+				BEF9D2F72AEC01AA0019737E /* RGB-MakerTests.xctest */,
+				BEF9D3012AEC01AA0019737E /* RGB-MakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF9D2E32AEC01A90019737E /* RGB-Maker */ = {
+			isa = PBXGroup;
+			children = (
+				BEF9D2E42AEC01A90019737E /* AppDelegate.swift */,
+				BEF9D2E62AEC01A90019737E /* SceneDelegate.swift */,
+				BEF9D2E82AEC01A90019737E /* ViewController.swift */,
+				BEF9D2EA2AEC01A90019737E /* Main.storyboard */,
+				BEF9D2ED2AEC01AA0019737E /* Assets.xcassets */,
+				BEF9D2EF2AEC01AA0019737E /* LaunchScreen.storyboard */,
+				BEF9D2F22AEC01AA0019737E /* Info.plist */,
+			);
+			path = "RGB-Maker";
+			sourceTree = "<group>";
+		};
+		BEF9D2FA2AEC01AA0019737E /* RGB-MakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF9D2FB2AEC01AA0019737E /* RGB_MakerTests.swift */,
+			);
+			path = "RGB-MakerTests";
+			sourceTree = "<group>";
+		};
+		BEF9D3042AEC01AA0019737E /* RGB-MakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF9D3052AEC01AA0019737E /* RGB_MakerUITests.swift */,
+				BEF9D3072AEC01AA0019737E /* RGB_MakerUITestsLaunchTests.swift */,
+			);
+			path = "RGB-MakerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF9D2E02AEC01A90019737E /* RGB-Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF9D30B2AEC01AA0019737E /* Build configuration list for PBXNativeTarget "RGB-Maker" */;
+			buildPhases = (
+				BEF9D2DD2AEC01A90019737E /* Sources */,
+				BEF9D2DE2AEC01A90019737E /* Frameworks */,
+				BEF9D2DF2AEC01A90019737E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RGB-Maker";
+			productName = "RGB-Maker";
+			productReference = BEF9D2E12AEC01A90019737E /* RGB-Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF9D2F62AEC01AA0019737E /* RGB-MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF9D30E2AEC01AA0019737E /* Build configuration list for PBXNativeTarget "RGB-MakerTests" */;
+			buildPhases = (
+				BEF9D2F32AEC01AA0019737E /* Sources */,
+				BEF9D2F42AEC01AA0019737E /* Frameworks */,
+				BEF9D2F52AEC01AA0019737E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF9D2F92AEC01AA0019737E /* PBXTargetDependency */,
+			);
+			name = "RGB-MakerTests";
+			productName = "RGB-MakerTests";
+			productReference = BEF9D2F72AEC01AA0019737E /* RGB-MakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF9D3002AEC01AA0019737E /* RGB-MakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF9D3112AEC01AA0019737E /* Build configuration list for PBXNativeTarget "RGB-MakerUITests" */;
+			buildPhases = (
+				BEF9D2FD2AEC01AA0019737E /* Sources */,
+				BEF9D2FE2AEC01AA0019737E /* Frameworks */,
+				BEF9D2FF2AEC01AA0019737E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF9D3032AEC01AA0019737E /* PBXTargetDependency */,
+			);
+			name = "RGB-MakerUITests";
+			productName = "RGB-MakerUITests";
+			productReference = BEF9D3012AEC01AA0019737E /* RGB-MakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF9D2D92AEC01A90019737E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BEF9D2E02AEC01A90019737E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BEF9D2F62AEC01AA0019737E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BEF9D2E02AEC01A90019737E;
+					};
+					BEF9D3002AEC01AA0019737E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BEF9D2E02AEC01A90019737E;
+					};
+				};
+			};
+			buildConfigurationList = BEF9D2DC2AEC01A90019737E /* Build configuration list for PBXProject "RGB-Maker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF9D2D82AEC01A90019737E;
+			productRefGroup = BEF9D2E22AEC01A90019737E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF9D2E02AEC01A90019737E /* RGB-Maker */,
+				BEF9D2F62AEC01AA0019737E /* RGB-MakerTests */,
+				BEF9D3002AEC01AA0019737E /* RGB-MakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF9D2DF2AEC01A90019737E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF9D2F12AEC01AA0019737E /* LaunchScreen.storyboard in Resources */,
+				BEF9D2EE2AEC01AA0019737E /* Assets.xcassets in Resources */,
+				BEF9D2EC2AEC01A90019737E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9D2F52AEC01AA0019737E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9D2FF2AEC01AA0019737E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF9D2DD2AEC01A90019737E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF9D2E92AEC01A90019737E /* ViewController.swift in Sources */,
+				BEF9D2E52AEC01A90019737E /* AppDelegate.swift in Sources */,
+				BEF9D2E72AEC01A90019737E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9D2F32AEC01AA0019737E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF9D2FC2AEC01AA0019737E /* RGB_MakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF9D2FD2AEC01AA0019737E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF9D3062AEC01AA0019737E /* RGB_MakerUITests.swift in Sources */,
+				BEF9D3082AEC01AA0019737E /* RGB_MakerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF9D2F92AEC01AA0019737E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF9D2E02AEC01A90019737E /* RGB-Maker */;
+			targetProxy = BEF9D2F82AEC01AA0019737E /* PBXContainerItemProxy */;
+		};
+		BEF9D3032AEC01AA0019737E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF9D2E02AEC01A90019737E /* RGB-Maker */;
+			targetProxy = BEF9D3022AEC01AA0019737E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF9D2EA2AEC01A90019737E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF9D2EB2AEC01A90019737E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF9D2EF2AEC01AA0019737E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF9D2F02AEC01AA0019737E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF9D3092AEC01AA0019737E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF9D30A2AEC01AA0019737E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF9D30C2AEC01AA0019737E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RGB-Maker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.RGB-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF9D30D2AEC01AA0019737E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RGB-Maker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.RGB-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEF9D30F2AEC01AA0019737E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.RGB-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB-Maker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RGB-Maker";
+			};
+			name = Debug;
+		};
+		BEF9D3102AEC01AA0019737E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.RGB-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB-Maker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RGB-Maker";
+			};
+			name = Release;
+		};
+		BEF9D3122AEC01AA0019737E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.RGB-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RGB-Maker";
+			};
+			name = Debug;
+		};
+		BEF9D3132AEC01AA0019737E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.RGB-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RGB-Maker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF9D2DC2AEC01A90019737E /* Build configuration list for PBXProject "RGB-Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF9D3092AEC01AA0019737E /* Debug */,
+				BEF9D30A2AEC01AA0019737E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF9D30B2AEC01AA0019737E /* Build configuration list for PBXNativeTarget "RGB-Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF9D30C2AEC01AA0019737E /* Debug */,
+				BEF9D30D2AEC01AA0019737E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF9D30E2AEC01AA0019737E /* Build configuration list for PBXNativeTarget "RGB-MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF9D30F2AEC01AA0019737E /* Debug */,
+				BEF9D3102AEC01AA0019737E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF9D3112AEC01AA0019737E /* Build configuration list for PBXNativeTarget "RGB-MakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF9D3122AEC01AA0019737E /* Debug */,
+				BEF9D3132AEC01AA0019737E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF9D2D92AEC01A90019737E /* Project object */;
+}
